@@ -1,0 +1,104 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top button{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 50px;
+}
+.top h2{
+    font-size: 40px;
+    height: 100px;
+}
+.product_general{
+    display: flex;
+    justify-content: center;
+}
+.img_wrapper{
+    width: 800px;
+    height: 710px;
+    flex-shrink: 0;
+}
+.img_wrapper img{
+    width: 700px;
+    height: 600px;
+}
+.price h2{
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.dollar{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+}
+
+.old_price{
+    color: #8B8B8B;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 26px */
+    letter-spacing: 0.6px;
+    text-decoration-line: line-through;
+}
+.sale{
+    color: #FF32A1;
+
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 36.4px */
+    letter-spacing: 0.84px;
+}
+.percent{
+    color: #FF32A1;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+}
+.price{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    align-items: last baseline;
+}
+.b-t{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.p-1{
+    margin-top: 20px;
+    
+}

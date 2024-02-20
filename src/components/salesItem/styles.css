@@ -1,0 +1,43 @@
+.flowers_sales{
+    width: 200px;
+    border-radius: 20px;
+}
+.item_body1{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+}
+.item_body h3{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .4px;
+    line-height: 24px;
+}
+.item_sale-p-grey{
+    color: #8B8B8B;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.item_sale-p-red{
+    color: rgb(255, 0, 55);
+    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .4px;
+    line-height: 24px;
+
+}
+.sales_item_text{
+    font-size: 15px;
+    color: 
+    #3A3A3A;
+    margin: 0%;
+}
+.sales_item_general{
+    margin-top: 20px;
+
+}
+.sales_item_general:hover{
+    color: red;
+}

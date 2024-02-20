@@ -1,0 +1,21 @@
+.sales{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.sales h2{
+    margin-bottom: 50px;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.sales_it{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.general_sales_first{
+    display: flex;
+    justify-content: left;
+    gap: 70px;
+}

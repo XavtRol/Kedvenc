@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.prd h1{
+    margin-bottom: 50px;
+    font-size: 35px;
+}

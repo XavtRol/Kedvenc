@@ -1,0 +1,17 @@
+.products_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.products h2{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.all_goods{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}

@@ -1,0 +1,24 @@
+
+.header-menu{
+    display: flex;
+    gap: 57px;
+    align-items: center;
+
+}
+.header-menu a{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    text-decoration: none;
+    transition: all 0.5s linear;
+    
+}
+
+
+.header-menu a.active {
+    border-bottom: 1px solid black;
+    
+}

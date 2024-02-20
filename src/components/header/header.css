@@ -1,0 +1,39 @@
+.header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 60px;
+
+}
+.catolog{
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    display: inline-flex;
+    padding: 14px 30px 15px 30px;
+    align-items: flex-start;
+    gap: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.39s linear;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+    
+}
+.header-logo img{
+    width: 300px;
+    height: 100px;
+}
+
+.header-right-block {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+
+}

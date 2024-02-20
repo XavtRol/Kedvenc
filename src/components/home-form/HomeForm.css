@@ -1,0 +1,81 @@
+.HomeForm{
+    margin-bottom: calc(1000px - 950px);
+    height: 476px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #dbff49;
+    height: 550px;
+    border-radius: 10px;
+}
+.HomeForm-Item h2{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 108px */
+    letter-spacing: 2.7px;
+
+}
+.HomeForm-text{
+    margin-bottom: 46px
+
+}
+.HomeForm-Item h4{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+}
+.HomeForm-Item input:first-child{
+    width: 473px;
+    height: 75.441px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+    padding-left: 20px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    border: 2px black solid;
+}
+.HomeForm-Item input:first-child::placeholder{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 0.54px;
+}
+.HomeForm-Item input:last-child{
+    width: 473px;
+    height: 75.441px;
+    flex-shrink: 0;
+    border-radius: 25.147px;
+    border: 2.395px solid #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 28.739px;
+    font-weight: 700;
+    line-height: 120%; /* 34.487px */
+    letter-spacing: 0.862px;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: black;
+   
+letter-spacing: 0.36px;
+text-decoration: none;
+transition: 0.5s;
+}
+.HomeForm-Item form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.gnom img{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}

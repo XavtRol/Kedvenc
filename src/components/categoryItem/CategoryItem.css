@@ -1,0 +1,16 @@
+.Africa img{
+    height: 300px;
+    width: 300px;
+}
+.General_Africa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Africa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}

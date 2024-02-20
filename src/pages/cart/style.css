@@ -1,0 +1,70 @@
+.shop123{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.button_cart{
+    background-color: white;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.order1{
+    
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px black solid;
+    border-radius: 20px;
+    gap: 40px;
+    padding: 20px;
+}
+.cart_general{
+    display: flex;
+    justify-content: space-between;
+}
+.order_text{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.order1 h2{
+    font-size: 30px;
+
+}
+.order_s_1{
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+}
+.form_order form{
+    display: flex;
+    justify-content: center;
+}
+.text_order1{
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    border: 2px black solid;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+}
+.b_order_2{
+    width: 400px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    border: 2px black solid;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}

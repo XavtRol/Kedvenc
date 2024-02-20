@@ -1,0 +1,70 @@
+.banner{
+    background-color: #dbff49;
+    display:  flex;
+    align-items: center;
+    height: 600px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.banner-title{
+   width: 756px;
+   color: #000000;
+}
+
+.banner-title h2{
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 130%; /* 104px */
+    margin: 0;
+}
+.banner-title h3{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%; /* 81.9px */
+    margin: 0;
+}
+.banner-btns{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.banner-sale-btn{
+    display: flex;
+    padding: 25px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 13px;
+    border: 2px black solid;
+    background: #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%; /* 32.5px */
+    text-decoration: none;
+}
+.banner-all{
+    display: inline-flex;
+    padding: 25px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 13px;
+    border: 2px solid #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%; /* 32.5px */
+    text-decoration: none;
+    background-color: #000000;
+}
+
+.flowers{
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+}
